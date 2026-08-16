@@ -1,0 +1,106 @@
+﻿*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+min-height: 100vh;
+font-family: Arial, sans-serif;
+color: white;
+background: linear-gradient(135deg, #071a52, #1266a8);
+padding: 40px;
+display: flex;
+justify-content: center;
+items-content: center;
+
+}
+
+.containar{
+max-width: 600px;
+margin: auto;
+text-align: center;
+}
+
+h1{
+font-size: clamp(70px, 15vw, 150px);
+font-family: Georgia, serif;
+margin-bottom: 5px;
+letter-spacing: 8px;
+color: white;
+text-shadow: 0 0 10px #8bd8ff, 0 0 30px #168cff;
+}
+
+.intor{
+font-size: 20px;
+line-height: 1.8;
+margin-bottom: 35px;
+color: #dcefff; 
+}
+
+.card{
+background: rgba(255,255,255,0.1);
+padding: 15px;
+margin-bottom: 25px;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+transition: 0.4s;
+}
+
+.card:hover{
+translate: 0 -8px;
+background: rgba(255,255,255,0.16);
+}
+
+ img{
+width: 250px;
+height: 300px;
+object-fit: cover;
+border-radius: 15px;
+display: block;
+margin-bottom: 15px;
+
+}
+
+p{
+font-size: 20px;
+line-height: 1.8;
+}
+
+footer{
+margin-top: 40px;
+color: #cceaff;
+font-size: 20px;
+
+}
+
+@media (max-width: 600px){
+body{
+padding: 25px 15px;
+}
+h1{
+font-size: 35px;
+}
+img{
+height: 240px;
+}
+
+p{
+font-size: 16px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
